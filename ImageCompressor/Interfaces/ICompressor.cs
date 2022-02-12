@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using Microsoft.AspNetCore.Http;
+using System.Drawing;
 
 namespace ImageCompressor.Interfaces
 {
@@ -7,5 +8,6 @@ namespace ImageCompressor.Interfaces
         void CompressImage(Image sourceImage, int quality, string pathToSave);
         void CompressFromImagePath(string sourceImagePath, int imageQuality, string outputImagePath);
         void CompressFromImage(Image image, int imageQuality, string outputImagePath);
+        Task<Image> AddWatermarkOnImage(string watermarkFilename, IFormFile originalImage);
     }
 }

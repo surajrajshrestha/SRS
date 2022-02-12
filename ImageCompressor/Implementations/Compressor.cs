@@ -1,4 +1,5 @@
 ﻿using ImageCompressor.Interfaces;
+using Microsoft.AspNetCore.Http;
 using System.Drawing;
 using System.Drawing.Imaging;
 
@@ -89,6 +90,24 @@ namespace ImageCompressor.Implementations
             {
                 throw;
             }
+        }
+
+        public async Task<Image> AddWatermarkOnImage(string watermarkFilename, IFormFile originalImage)
+        {
+            using var stream = new MemoryStream();
+            await originalImage.CopyToAsync(stream);
+
+            var watermarkedStream = new MemoryStream();
+            using var img = Image.FromStream(stream);
+            using var graphics = Graphics.FromImage(img);
+
+            var point = new Point(0, img.Height / 2);
+            using Image image = Image.FromFile(watermarkFilename);
+
+            graphics.DrawImage(image, point);
+            img.Save(watermarkedStream, ImageFormat.Png);
+            return img;
+
         }
     }
 }
