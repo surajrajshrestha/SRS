@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPdfConverter", "HtmlToPdfConverter\HtmlToPdfConverter.csproj", "{91BD143E-4FE6-4723-B792-6958C1CAB06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRSConsole", "SRSConsole\SRSConsole.csproj", "{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
