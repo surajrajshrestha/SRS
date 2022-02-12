@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPdfConverter", "HtmlToPdfConverter\HtmlToPdfConverter.csproj", "{91BD143E-4FE6-4723-B792-6958C1CAB06E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRSConsole", "SRSConsole\SRSConsole.csproj", "{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompressor", "ImageCompressor\ImageCompressor.csproj", "{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91BD143E-4FE6-4723-B792-6958C1CAB06E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8E297FD-D3D0-4182-9E8C-EA17F6F9D772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
