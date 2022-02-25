@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPdfConverter", "HtmlToPdfConverter\HtmlToPdfConverter.csproj", "{91BD143E-4FE6-4723-B792-6958C1CAB06E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlToPdfConverter", "HtmlToPdfConverter\HtmlToPdfConverter.csproj", "{91BD143E-4FE6-4723-B792-6958C1CAB06E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompressor", "ImageCompressor\ImageCompressor.csproj", "{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageCompressor", "ImageCompressor\ImageCompressor.csproj", "{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumToListHelper", "EnumToListHelper\EnumToListHelper.csproj", "{A68836BC-8A6C-4591-BA23-BE1F1C69DE52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RulesManager", "RulesManager\RulesManager.csproj", "{57777CD5-ECB4-4881-9CE3-A67A7CE04C64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{63B837FF-ECE5-4E35-AB27-8D241664344A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F4E356D-1357-42C1-B876-D29E0E7BE4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68836BC-8A6C-4591-BA23-BE1F1C69DE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68836BC-8A6C-4591-BA23-BE1F1C69DE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68836BC-8A6C-4591-BA23-BE1F1C69DE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68836BC-8A6C-4591-BA23-BE1F1C69DE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57777CD5-ECB4-4881-9CE3-A67A7CE04C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57777CD5-ECB4-4881-9CE3-A67A7CE04C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57777CD5-ECB4-4881-9CE3-A67A7CE04C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57777CD5-ECB4-4881-9CE3-A67A7CE04C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B837FF-ECE5-4E35-AB27-8D241664344A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B837FF-ECE5-4E35-AB27-8D241664344A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B837FF-ECE5-4E35-AB27-8D241664344A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B837FF-ECE5-4E35-AB27-8D241664344A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
