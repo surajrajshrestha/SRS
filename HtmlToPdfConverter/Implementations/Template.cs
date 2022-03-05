@@ -48,5 +48,31 @@ namespace HtmlToPdfConverter.Implementations
             return stringWriter.ToString();
 
         }
+
+        public async Task<string> ConvertHtmlToStringAsync(string viewName)
+        {
+            var httpContext = new DefaultHttpContext()
+            {
+                RequestServices = _serviceProvider
+            };
+
+            var actionContext = new ActionContext(httpContext, new Microsoft.AspNetCore.Routing.RouteData(), new Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptor());
+            using StringWriter stringWriter = new StringWriter();
+
+            var viewResult = _razorViewEngine.FindView(actionContext, viewName, false);
+            if (viewResult.View == null)
+                return string.Empty;
+
+            var metaDataProvider = new EmptyModelMetadataProvider();
+            var modelStateDictionary = new ModelStateDictionary();
+            var viewDataDictionary = new ViewDataDictionary(metaDataProvider, modelStateDictionary);
+
+            var tempDictionary = new TempDataDictionary(actionContext.HttpContext, _tempDataProvider);
+
+            var viewContext = new ViewContext(actionContext, viewResult.View, viewDataDictionary, tempDictionary, stringWriter, new HtmlHelperOptions());
+
+            await viewResult.View.RenderAsync(viewContext);
+            return stringWriter.ToString();
+        }
     }
 }

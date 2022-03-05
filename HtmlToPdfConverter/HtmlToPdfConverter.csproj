@@ -5,10 +5,32 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>htmltopdfconverter.surajrajshrestha.com.np</PackageId>
+		<Authors>Suraj Raj Shrestha</Authors>
+		<Description>Library to convert html to pdf.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<RepositoryUrl>https://github.com/surajrajshrestha/SRS</RepositoryUrl>
+		<PackageTags>Conversion, Converter, Html to pdf, pdf</PackageTags>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageReleaseNotes>- Add</PackageReleaseNotes>
+		<SignAssembly>False</SignAssembly>
+		<ApplicationIcon>logo.ico</ApplicationIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Content Include="logo.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\suraj\Desktop\logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
