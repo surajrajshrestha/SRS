@@ -11,11 +11,14 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<RepositoryUrl>https://github.com/surajrajshrestha/SRS</RepositoryUrl>
-		<PackageTags>Conversion, Converter, Html to pdf, pdf</PackageTags>
+		<PackageTags>Conversion, Converter, HtmlToPdf, Syncfusion Implementation, Syncfusion</PackageTags>
 		<NeutralLanguage>en</NeutralLanguage>
 		<PackageReleaseNotes>- Add</PackageReleaseNotes>
 		<SignAssembly>False</SignAssembly>
 		<ApplicationIcon>logo.ico</ApplicationIcon>
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
